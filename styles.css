@@ -1,0 +1,111 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;    
+    background-color: #dcdddd;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+h1 {
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+main {
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+#search-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#search {
+    padding: 10px;
+    font-size: 16px;
+    
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#video-list {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.video-thumbnail {
+    width: 200px;
+    margin: 10px;
+}
+
+.video-thumbnail img {
+    width: 100%;
+    border: 1px solid rgb(252, 251, 251)
+    
+}
+h2{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+h4{
+    padding: 1px 1px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+iframe{
+    width: 900px;
+    height: 535px;
+}
+.download{
+    padding: 10px 0px;
+}
+video{
+    width: 900px;
+}
+@media only screen and (max-width: 480px) {
+    header {
+    font-size: 18px;
+    width: 285px;
+    }
+    body{
+        font-size: 18px;
+        width: 285px;
+    }
+    main{
+        font-size: 18px;
+        width: 285px;
+    }
+    div #video-player{
+        font-size: 18px;
+        width: 285px;
+    }
+    div #search-container{
+        font-size: 18px;
+        width: 285px;
+}
+video {
+    font-size: 18px;
+    width: 285px;
+}
+
+
+}
